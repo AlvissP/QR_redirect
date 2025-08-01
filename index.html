@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Đang chuyển hướng...</title>
+    <script>
+      const code = location.pathname.replace("/", "").trim();
+      if (code) {
+        window.location.href = "https://script.google.com/macros/s/AKfycbxod96BA51uLUH22l_jkpjoafQAv8RS0n02lmdaxb_zrI_H7p0VBWy8U97mnySDkMvt/exec?code=" + code;
+      } else {
+        document.write("<h3 style='text-align: center; margin-top: 40px;'>Không tìm thấy mã thiết bị</h3>");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
